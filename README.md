@@ -26,13 +26,23 @@
 
 3. Open XCTU and click *Discover devices*
 
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/xctu_discover.png" width="300"/>
+
 4. Select the port to be scanned. Then select the settings as shown below:
+
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/xctu_discover_ports.png" width="300"/>
 
 5. Your device should appear on *Devices discovered* list. Click *Add selected devices*.
 
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/xctu_add_device.png" width="300"/>
+
 6. With the gear icon selected, click the radio-module on the left and verify that the XBee is running 802.15.4 firmware. Select *Update firmware* and update if necessary.
 
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/xctu_firmware.png" width="400"/>
+
 7. Now, still with the gear icon selected, you should see a long list of settings on the right.
+
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/xctu_settings.png" width="500"/>
 
 8. Under *Networking* pick a channel (between 0x0B and 01A) for the XBee radios to communicate over. **Note that all XBees need to be on the same channel.**
 
@@ -55,6 +65,8 @@
 3. Change `char id = ` to a unique character. **Note: make sure to record which Teensy has which ID so you can tell them apart during analysis.**
 
 4. Under *Tools* verify the following settings and that you select the correct port.
+
+<img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/teensy_port.png" width="500"/>
 
 5. Compile and upload the code to the Teensy Board.
 
