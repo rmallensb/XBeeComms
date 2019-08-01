@@ -60,17 +60,19 @@
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/Main/Software "Arduino IDE").
 
-2. Plug in one of your Teensy boards into your computer via USB and open `dummy_sensor.ino` with the Arduino IDE. **Note: Make sure your USB allows for data flow and not just power.**
+2. Install Teensyduino [Teensyduino](https://www.pjrc.com/teensy/td_download.html).
 
-3. Change `char id = ` to a unique character. **Note: make sure to record which Teensy has which ID so you can tell them apart during analysis.**
+3. Plug in one of your Teensy boards into your computer via USB and open `dummy_sensor.ino` with the Arduino IDE. **Note: Make sure your USB allows for data flow and not just power.**
 
-4. Under *Tools* verify the following settings and that you select the correct port.
+4. Change `char id = ` to a unique character. **Note: make sure to record which Teensy has which ID so you can tell them apart during analysis.**
+
+5. Under *Tools* verify the following settings and that you select the correct port.
 
 <img src="https://github.com/rmallensb/XBeeComms/blob/master/images/tutorial/teensy_port.png" width="500"/>
 
-5. Compile and upload the code to the Teensy Board.
+6. Compile and upload the code to the Teensy Board.
 
-6. Unplug the Teensy and repeat steps 2-5 for all other Teensy boards.
+7. Unplug the Teensy and repeat steps 2-5 for all other Teensy boards.
 
 ## Software Configuration
 
